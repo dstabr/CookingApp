@@ -1,0 +1,3 @@
+# *.xcworkspace or *.xcodeproj should be unique. can be omit and will auto choose the unique workspace or project.
+xcode-build-server config -workspace *.xcworkspace -scheme <XXX> 
+xcode-build-server config -project *.xcodeproj -scheme <XXX> 
